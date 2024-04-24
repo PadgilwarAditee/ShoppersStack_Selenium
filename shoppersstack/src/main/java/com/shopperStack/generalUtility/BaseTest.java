@@ -59,6 +59,9 @@ public class BaseTest  {
 		String url= file.readPropertyFile("url");
 		String browser= file.readPropertyFile("browser");
 		
+		//String url=system.getProperty("url");
+		//String browserString=System.getPropertyData("browser");
+		
 		 if(browser.equals("chrome")) {
 			 driver= new ChromeDriver();
 		 }
